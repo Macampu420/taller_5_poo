@@ -8,7 +8,7 @@ class Vendedor:
         self.apellidos = apellidos
         self.edad = edad
 
-    def imprimir(self) -> str:
+    def imprimir(self):
         return (f"Nombre del vendedor: {self.nombre}\n"
                 f"Apellidos del vendedor: {self.apellidos}\n"
                 f"Edad del vendedor: {self.edad}\n")
